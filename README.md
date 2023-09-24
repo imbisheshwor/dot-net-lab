@@ -18,8 +18,15 @@ Running the project
 - dotnet build
 - dotnet run
 
-Project run in :
+Project runing:
 http://localhost:5196/Weatherforecast
 or 
 using swagger 
 http://localhost:5196/swagger/index.html
+
+POSTMAN::
+    - install postman
+    - add url "http://localhost:5196/Weatherforecast" in tab
+    - send GET request
+    - see response data in json format
+    
